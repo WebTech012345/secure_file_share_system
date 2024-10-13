@@ -76,7 +76,9 @@ You should now see the file-sharing system interface.
 project-root/
 ├── public/                   # Contains static assets like CSS, JS, images
 │   ├── css/
-│   │   └── styles.css         # External CSS styles
+│   │   ├── main.css         # External 
+│   │   └── password.css         # External
+CSS styles
 │   ├── js/
 │   │   └── script.js          # External JavaScript (if any)
 ├── uploads/                  # Temporary file uploads
