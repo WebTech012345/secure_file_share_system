@@ -19,7 +19,7 @@
 
         <div class="drop-zone">
           <span class="drop-zone__prompt"> <div class="icons"> <img src="https://cdn-icons-png.flaticon.com/512/4366/4366454.png" class="img"> </div> Drop file here or click to upload</span>
-          <input type="file" name="file" class="drop-zone__input">
+          <input type="file" name="file" class="drop-zone__input" required>
         </div>
 
         
@@ -36,7 +36,7 @@
           </div>
           <% } %>
         </div>
-        <input class="password" type="password" id="password" placeholder="password" name="password" required/>
+        <input class="password" type="password" id="password" placeholder="password" name="password" />
        
           <div class="buttons">
           <!-- <% if (locals.fileLink != null) { %>
